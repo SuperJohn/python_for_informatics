@@ -1,0 +1,14 @@
+Python for Informatics
+Assignment 6
+“URL Reader”
+
+Description:
+	•	Rename the socket1.py program from our textbook to URL_reader.py.
+	•	Modify the URL_reader.py program to use urllib instead of a socket.
+	•	Add code that prompts the user for the URL so it can read any web page. 
+	•	Add error checking using try and except to handle the condition where the user enters an improperly formatted or non-existent URL.
+	•	Count the number of characters received and stop displaying any text after it has shown 3000 characters.
+	•	Continue to retrieve the entire document, count the total number of characters, and display the total number of characters.
+Deliverable:
+Two files as attachments at our course shell assignment page. The first file should be a Python URL_reader.py file with the specified functionality. The second file should be a screenshot image file (.png or .jpg) demonstrating the correct execution of your program with an URL of your choice. Please ensure that your full name is specified as a Python comment at the top of the URL_reader.py file.
+
