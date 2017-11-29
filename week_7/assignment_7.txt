@@ -1,0 +1,14 @@
+Python for Informatics
+Assignment 7
+“Google Geocoding”
+
+Description:
+	•	Change either the geojson.py or geoxml.py program to print out the two-character country code from the retrieved data.
+	•	Add error checking so your program does not traceback if the country code is not there.
+	•	Use the program to search for “Pacific Ocean” and make sure that it can handle locations that are not in any country.
+Deliverable:
+Two files as attachments at our course shell assignment page. The first file should be the Python .py that you chose to modify. The second file should be a screenshot image file (.png or .jpg) demonstrating the correct execution of your program. Please ensure that your full name is specified as a Python comment at the top of the .py file.
+
+
+
+
