@@ -1,0 +1,16 @@
+Python for Informatics
+Assignment 8
+“3 Informatics Projects”
+
+Description:
+	•	Step through and execute each of the three informatics applications/projects delineated in Chapter 15 (“Visualizing data”) of our textbook. The slides for Lesson 8 will help you understand the how and why of each necessary step.
+	•	At the end of each project, take a screenshot of the project output.
+Deliverable:
+Three files as attachments at our course shell assignment page. Each one will be a screenshot image file (.png or .jpg) demonstrating the final output of the respective project. 
+
+
+
+
+
+
+
