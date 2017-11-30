@@ -19,12 +19,23 @@ while True:
         print '==== Failure To Retrieve ===='
         print data
         continue
+    
+    # print json.dumps(js, indent=4)
 
-    print json.dumps(js, indent=4)
-
-    lat = js["results"][0]["geometry"]["location"]["lat"]
-    lng = js["results"][0]["geometry"]["location"]["lng"]
-    print 'lat',lat,'lng',lng
-    location = js['results'][0]['formatted_address']
-    print location
+    results = js['results'][0]
+    
+    # print json.dumps(results['address_components'], indent=4)
+    
+    for u in results['address_components']:
+        if u['types'][0] == 'country' :
+            country_code = u['short_name']
+            
+    if 'country_code' in locals():
+        print "Country code for \'" + str(address) + "\' is " + str(country_code)
+        del country_code
+    else:
+        print 'Country code does not exist for ' + str(address)
+        
+    
+        
 
